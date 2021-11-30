@@ -1,0 +1,24 @@
+{
+  "name": "chitter-challenge",
+  "version": "1.0.0",
+  "description": "As a Maker So that I can let people know what I am doing   I want to post a message (peep) to chitter",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "esbuild ./javascripts/index.js --bundle --outfile=./javascripts/bundle.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmargerison/chitter-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmargerison/chitter-challenge/issues"
+  },
+  "homepage": "https://github.com/bmargerison/chitter-challenge#readme"
+}
