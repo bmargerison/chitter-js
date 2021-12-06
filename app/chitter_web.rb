@@ -36,8 +36,6 @@ class Chitter < Sinatra::Base
   end
 
   post '/login' do
-    sessions[:userane] = params[:username]
-
     User.assign_user(params[:username])
     redirect '/'
   end
